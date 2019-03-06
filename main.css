@@ -2,6 +2,10 @@ body {
   background-color: white;
 }
 
+.audiojs {
+  display: none;
+}
+
 .march {
   display: flex;
   flex-direction: column

@@ -8,13 +8,6 @@
     <title>С 8 Марта!</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css">
-    <script>
-        function audioSettings() {
-            var myAudio = document.getElementById("audio");
-            myAudio.volume = 0.5;
-            myAudio.currentTime = 7;
-        }
-    </script>
 </head>
 
 <body>
@@ -56,11 +49,8 @@
         </div>
     </div>
 
-    <audio id="audio" autoplay preload="auto" onloadeddata="audioSettings()">
-        <source src="melody.mp3" type="audio/mpeg">
-        Тут была бы музычка, если бы браузер мог
-    </audio>
-
+    <iframe src="https://www.dropbox.com/s/v866p3cllpc3a56/melody.mp3?raw=1" allow="autoplay" style="display:none">
+    </iframe>
 
 </body>
 
