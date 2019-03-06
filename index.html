@@ -8,6 +8,13 @@
     <title>С 8 Марта!</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <script>
+        function audioSettings() {
+            var myAudio = document.getElementById("audio");
+            myAudio.volume = 0.5;
+            myAudio.currentTime = 7;
+        }
+    </script>
 </head>
 
 <body>
@@ -48,6 +55,11 @@
             <div class="row" id="row10">крепла и становилась дружнее.</div>
         </div>
     </div>
+
+    <audio id="audio" autoplay onloadeddata="audioSettings()">
+        <source src="melody.mp3" type="audio/mpeg">
+        Тут была бы музычка, если бы браузер мог
+    </audio>
 
 
 </body>
